@@ -37,3 +37,8 @@ body {
 a {
   color: #fff;
 }
+@media (max-width: 480px) {
+  .bday-container img {
+    max-width: 90%;
+  }
+}
