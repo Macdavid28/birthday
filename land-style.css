@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  background: linear-gradient(to right, #8a2be2, #4b0082);
+}
+.bday-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin-top: 100px;
+}
+.bday-container img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 1px 0px 20px 0px black;
+}
+.bday-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bday-btn button {
+  margin-top: 20px;
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3);
+  font-family: "Emilys Candy";
+  font-size: 20px;
+  cursor: pointer;
+}
+a {
+  color: #fff;
+}
